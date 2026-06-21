@@ -9,9 +9,9 @@ Implementación del juego Snake siguiendo los principios de diseño arquitectón
 - **Vista:** `SnakeView` - Renderizado gráfico usando Turtle.
 - **Controlador:** `SnakeController` - Gestión de eventos y bucle de juego.
 ### Documentación técnica adicional:
-- **Diagrama de Arquitectura:** [mvc_snake.png](mvc_snake.png)
+- **Diagrama de Arquitectura:** [mvc snake.png](mvc_snake.png)
 - **Diagrama de Flujo (Lógica):** [diagrama_logica_pseint.png](diagrama_logica_pseint.png)
-- **Motor de movimiento:** [motor_snake.png](motor_snake.png)
+- **Motor de movimiento:** [motorsnake.png](motor_snake.png)
 
 ### Diagramas
 Puedes encontrar los diagramas funcionales y de arquitectura en la carpeta `/diagramas`.
