@@ -1,23 +1,27 @@
-# Proyecto: Juego de la Serpiente (Snake Game)
+# Proyecto Integrador: Snake Game (Arquitectura MVC)
 
-## Arquitectura: MVC (Modelo-Vista-Controlador)
+## Descripción
+Este proyecto consiste en la implementación del clásico juego "Snake" desarrollado en Python. El enfoque principal ha sido aplicar un diseño de software modular bajo el patrón **MVC (Modelo-Vista-Controlador)**, garantizando una separación clara entre la lógica de datos, la interfaz gráfica y la gestión de eventos.
 
-### Descripción
-Implementación del juego Snake siguiendo los principios de diseño arquitectónico propuestos en la Fase 1.
+## Objetivos
+- Desarrollar un sistema funcional integrando estructuras lógicas y repetitivas.
+- Implementar el patrón de diseño MVC para organizar el código de manera profesional.
+- Aplicar conocimientos de arquitectura de software y lógica algorítmica.
 
-### Componentes:
-* **Modelo (`SnakeModel`):** Gestiona la lógica de datos, estados del juego y posiciones.
-* **Vista (`SnakeView`):** Renderizado gráfico usando la librería nativa Turtle.
-* **Controlador (`SnakeController`):** Gestión de eventos del teclado, colisiones y bucle principal del juego.
+## Integrantes
+- Christian Torres Alberca
 
-### Documentación técnica adicional:
-* **Diagrama de Arquitectura:** `mvc snake.png`
-* **Diagrama de Flujo (Lógica):** `flujo algoritimico.png`
-* **Motor de movimiento:** `motor snake.png`
-* **Archivo Base PSeInt:** `DIAGRAMA SNAKE PSEINT.jpg` / `DIAGRAMA SNAKE.psc`
+## Funcionalidades
+- **Control de movimiento:** Gestión de eventos de teclado (arriba, abajo, izquierda, derecha).
+- **Sistema de colisiones:** Detección de límites del mapa y auto-colisión.
+- **Lógica de crecimiento:** Aumento de puntuación y longitud al consumir alimento.
+- **Arquitectura Modular:** Separación de responsabilidades entre `SnakeModel`, `SnakeView` y `SnakeController`.
 
-### Diagramas
-Puedes encontrar los diagramas funcionales y de arquitectura cargados directamente en la raíz del repositorio.
+## Fecha
+- Junio, 2026
 
-### Autor
-Christian Torres
+## Instrucciones de ejecución
+1. Asegúrate de tener instalado Python.
+2. Ejecuta el archivo principal:
+   ```bash
+   python main.py
